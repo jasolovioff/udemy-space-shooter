@@ -3,6 +3,10 @@ extends CharacterBody2D
 #var velocity := Vector2.ZERO
 var speed := 100
 var normal_shot = preload("res://Scenes/ProjectileNormal.tscn")
+var active_power:String
+
+var shield_scene = preload("res://Scenes/shields.tscn")
+var shielded := false
 
 @onready var anim_player = $AnimationPlayer
 @onready var LeftCannon = $LeftCannon
@@ -47,3 +51,22 @@ func shooting():
 		shot_inst2.position = RightCannon.global_position
 		get_parent().add_child(shot_inst)
 		get_parent().add_child(shot_inst2)
+
+
+func _on_timer_timeout():
+	match active_power:
+		"speed":
+			speed = 100
+			$PowerUpTimer.stop()
+			print("back to normal speed")
+		"shields":
+			shielded = false
+			$PowerUpTimer.stop()
+			print("removing shield")
+		_:
+			pass
+			
+func shield_toggle():
+	self.shielded = true
+	var shield_inst = shield_scene.instantiate()
+	self.add_child(shield_inst)

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://nfjubx7qaxyq"
-path="res://.godot/imported/Player_SpriteSheet.png-869a60d85ad5fa3a08a96934a40f44b0.ctex"
+uid="uid://c051eufny5h0q"
+path="res://.godot/imported/Shield_Emptyl.png-0d79936141eb72004b6a96e8a30b6e3c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Player_SpriteSheet.png"
-dest_files=["res://.godot/imported/Player_SpriteSheet.png-869a60d85ad5fa3a08a96934a40f44b0.ctex"]
+source_file="res://Sprites/Shield_Emptyl.png"
+dest_files=["res://.godot/imported/Shield_Emptyl.png-0d79936141eb72004b6a96e8a30b6e3c.ctex"]
 
 [params]
 
@@ -25,7 +25,7 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
-process/fix_alpha_border=false
+process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false
 process/hdr_as_srgb=false

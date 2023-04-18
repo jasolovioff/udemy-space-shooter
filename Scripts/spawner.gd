@@ -12,6 +12,7 @@ func _on_timer_timeout():
 	var power = randi() %powerups_lists.size()
 	
 	var chance = randi() %10
+	chance = 1
 	
 	match chance:
 		1:

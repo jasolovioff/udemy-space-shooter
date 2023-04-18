@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://nfjubx7qaxyq"
-path="res://.godot/imported/Player_SpriteSheet.png-869a60d85ad5fa3a08a96934a40f44b0.ctex"
+uid="uid://cj615qmigrmah"
+path="res://.godot/imported/Shield_SpriteSheet.png-89338d04e03fd0e75df38cee37560adb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Player_SpriteSheet.png"
-dest_files=["res://.godot/imported/Player_SpriteSheet.png-869a60d85ad5fa3a08a96934a40f44b0.ctex"]
+source_file="res://Sprites/Shield_SpriteSheet.png"
+dest_files=["res://.godot/imported/Shield_SpriteSheet.png-89338d04e03fd0e75df38cee37560adb.ctex"]
 
 [params]
 

@@ -99,3 +99,8 @@ position = Vector2(-11, -11)
 
 [node name="RightCannon" type="Marker2D" parent="."]
 position = Vector2(11, -11)
+
+[node name="PowerUpTimer" type="Timer" parent="."]
+wait_time = 10.0
+
+[connection signal="timeout" from="PowerUpTimer" to="." method="_on_timer_timeout"]
